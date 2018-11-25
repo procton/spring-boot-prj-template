@@ -124,5 +124,4 @@ public abstract class BaseService {
   protected String uuidToString(UUID uuid) {
     return uuid == null ? null : uuid.toString();
   }
-
 }

@@ -21,7 +21,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * The base class for all entities with UUID primary key.
+ * The base class for all entities with Long primary key.
  */
 @MappedSuperclass
 @Data

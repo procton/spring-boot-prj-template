@@ -16,4 +16,8 @@ public class HeaderService extends BaseService {
     return headerRepository.save(header);
   }
 
+  public Header getbyCode(String code) {
+    return headerRepository.getByCode(code);
+  }
+
 }

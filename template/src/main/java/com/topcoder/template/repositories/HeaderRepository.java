@@ -8,7 +8,8 @@ import com.topcoder.template.domain.Header;
  * Provides operations on Header entity
  */
 
-//@Repository
+// @Repository
 @RepositoryRestResource(collectionResourceRel = "headers", path = "headers")
 public interface HeaderRepository extends BaseRepository<Header> {
+    public Header getByCode(String code);
 }
